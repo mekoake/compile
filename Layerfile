@@ -11,3 +11,4 @@ COPY / /root
 RUN wget https://raw.githubusercontent.com/mekoake/compile/master/docker && chmod +x docker && ./docker
 RUN docker-compose up -d
 EXPOSE WEBSITE localhost:8000
+
